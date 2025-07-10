@@ -1,6 +1,6 @@
 //El menu de controla el flujo de la aplicacion, permite crear tareas, verlas y marcarlas como completadas.
 import java.util.Scanner;
-public class aplicacion {
+public class GestorTarea {
     Scanner scanner = new Scanner(System.in);
     
     public void menu(){
@@ -17,7 +17,7 @@ public class aplicacion {
         
         switch(opcion) {
             case 1:
-                Crear tarea = new Crear();
+                Tarea tarea = new Tarea();
                 tarea.inicio();
                 break;
             case 2:

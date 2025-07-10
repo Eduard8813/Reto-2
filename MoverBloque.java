@@ -72,7 +72,7 @@ public class MoverBloque {
             e.printStackTrace();
         }
 
-        aplicacion app = new aplicacion();
+        GestorTarea app = new GestorTarea();
         app.regresaMenu();
     }
 }

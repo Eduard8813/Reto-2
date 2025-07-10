@@ -16,7 +16,7 @@ public class leerTareas {
             while ((linea = br.readLine()) != null) {
                 System.out.println(linea);
             }
-            aplicacion app = new aplicacion();
+            GestorTarea app = new GestorTarea();
             app.regresaMenu(); 
         } catch (IOException e) {
             System.err.println("Error al leer el archivo: " + e.getMessage());

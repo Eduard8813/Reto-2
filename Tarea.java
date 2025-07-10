@@ -1,17 +1,17 @@
 // Este archivo es parte de un proyecto de gestión de tareas en Java.
 import java.util.Scanner;
 
-public class Crear {
+public class Tarea {
     String Titulo;
     String Descripcion;
     String Fecha;
 
-    public Crear()
+    public Tarea()
     {
 
     }
 
-    public Crear(String titulo, String descripcion, String fecha) {
+    public Tarea(String titulo, String descripcion, String fecha) {
         Titulo = titulo;
         Descripcion = descripcion;
         Fecha = fecha;
@@ -91,7 +91,7 @@ public class Crear {
                 solicitar();
             } else if (respuesta.equalsIgnoreCase("no") || respuesta.equalsIgnoreCase("No")) {
                 System.out.println("Saliendo...");
-                aplicacion app = new aplicacion();
+                GestorTarea app = new GestorTarea();
                 app.regresaMenu();
             } else {
                 System.out.println("Respuesta no válida, por favor intente de nuevo.");
