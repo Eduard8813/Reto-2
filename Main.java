@@ -1,7 +1,7 @@
+//El ejecutor y el iniciador de la aplicacion.
 public class Main {
     public static void main(String[] args) {
-        aplicacion menu = new aplicacion();
-        menu.mostrarMenu();
-
+        aplicacion app = new aplicacion();
+        app.menu();
     }
 }

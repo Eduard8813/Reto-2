@@ -1,3 +1,5 @@
+//Controlar el estado de una tarea, si esta completada o no, y permite marcarla como completada.
+
 public class Tarea{
     String titulo;
     String descripcion;
@@ -22,14 +24,9 @@ public class Tarea{
     public void marcarCompletado(){
         this.completada = true;
     }
-
-    @Override
-    public String toString(){
+    
+    public String getInfor() {
         return "Tarea: " +  "Titulo: " + titulo + "Descripcion: " + descripcion + "Completado: " + completada;
     }
 
-    public void add(Tarea tarea) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'add'");
-    }
 }
