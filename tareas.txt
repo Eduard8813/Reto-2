@@ -1,0 +1,20 @@
+Titulo: Matematica
+Descripcion: Numero
+Fecha: 20/2/2025
+
+Titulo: Literatura
+Descripcion: Lee
+Fecha: 20/02/2025
+
+Titulo: Sociales
+Descripcion: Comportamiento humano
+Fecha: 20/2/2025
+
+Titulo: Fisiologia
+Descripcion: Estudio
+Fecha: 20/2/2025
+
+Titulo: Ingeneria
+Descripcion: Control
+Fecha: 20/2/2025
+

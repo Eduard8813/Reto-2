@@ -8,14 +8,17 @@ public class aplicacion {
         System.out.println("1. Crear tarea");
         System.out.println("2. Ver tareas");
         System.out.println("3. Marcar tarea como completada");
-        System.out.println("4. Salir");
-        
+        System.out.println("4. Mostrar tareas pendientes");
+        System.out.println("5. Mostrar tareas completadas");
+        System.out.println("5. Salir");
+    
         int opcion = scanner.nextInt();
-        scanner.nextLine(); // Limpiar el buffer
+        scanner.nextLine(); 
         
         switch(opcion) {
             case 1:
-                menu();
+                Crear tarea = new Crear();
+                tarea.inicio();
                 break;
             case 2:
                 menu();
@@ -24,6 +27,10 @@ public class aplicacion {
                 menu();
                 break;
             case 4:
+                System.out.println("Saliendo...");
+                scanner.close();
+                break;
+            case 5:
                 System.out.println("Saliendo...");
                 scanner.close();
                 break;
