@@ -14,3 +14,27 @@ Fecha: 20/02/2025
 
 
 
+Titulo: Sociales
+
+Descripcion: Comportamiento humano
+
+Fecha: 20/2/2025
+
+
+
+Titulo: Sociales
+Descripcion: Humano
+Fecha: 20/2/2025
+
+Titulo: Control Automatico
+Descripcion: Control de sistema automatizado
+Fecha: 20/2/2024
+
+Titulo: Fisiologia
+
+Descripcion: Estudio
+
+Fecha: 20/2/2025
+
+
+

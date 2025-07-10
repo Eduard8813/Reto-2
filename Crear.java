@@ -1,3 +1,4 @@
+// Este archivo es parte de un proyecto de gestión de tareas en Java.
 import java.util.Scanner;
 
 public class Crear {
@@ -90,6 +91,8 @@ public class Crear {
                 solicitar();
             } else if (respuesta.equalsIgnoreCase("no") || respuesta.equalsIgnoreCase("No")) {
                 System.out.println("Saliendo...");
+                aplicacion app = new aplicacion();
+                app.regresaMenu();
             } else {
                 System.out.println("Respuesta no válida, por favor intente de nuevo.");
                 seguir();

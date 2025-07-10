@@ -1,3 +1,4 @@
+//Este archivo mueve un bloque de texto de un archivo a otro basado en un título específico.
 import java.io.*;
 import java.util.*;
 
@@ -71,6 +72,7 @@ public class MoverBloque {
             e.printStackTrace();
         }
 
-        sc.close();
+        aplicacion app = new aplicacion();
+        app.regresaMenu();
     }
 }

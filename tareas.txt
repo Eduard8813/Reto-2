@@ -1,24 +1,16 @@
 
-Titulo: Sociales
-
-Descripcion: Comportamiento humano
-
-Fecha: 20/2/2025
-
-
-
-Titulo: Fisiologia
-
-Descripcion: Estudio
-
-Fecha: 20/2/2025
-
-
-
 Titulo: Ingeneria
 
 Descripcion: Control
 
 Fecha: 20/2/2025
 
+
+Titulo: Literatura
+Descripcion: Hola
+Fecha: 20/02/2025
+
+Titulo: Fisioterapia
+Descripcion: Control de los huesos
+Fecha: 20/02/2025
 

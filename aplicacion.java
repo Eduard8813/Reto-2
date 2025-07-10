@@ -10,7 +10,7 @@ public class aplicacion {
         System.out.println("3. Marcar tarea como completada");
         System.out.println("4. Mostrar tareas pendientes");
         System.out.println("5. Mostrar tareas completadas");
-        System.out.println("5. Salir");
+        System.out.println("6. Salir");
     
         int opcion = scanner.nextInt();
         scanner.nextLine(); 
@@ -32,16 +32,39 @@ public class aplicacion {
                 filtrar.moverPorTitulo();
                 break;
             case 4:
-                System.out.println("Saliendo...");
-                scanner.close();
+                System.out.println("Mostrando tareas pendientes...");
+                System.out.println("----------------------------------------------");
+                leerTareas tareasPendientes = new leerTareas("tareas.txt");
+                tareasPendientes.mostrarContenido();
+                System.out.println("----------------------------------------------");
                 break;
             case 5:
+                System.out.println("Mostrando tareas completadas...");
+                System.out.println("----------------------------------------------");
+                leerTareas tareasCompletadas = new leerTareas("tareasCompletadas.txt");
+                tareasCompletadas.mostrarContenido();
+                System.out.println("----------------------------------------------");
+            case 6:
                 System.out.println("Saliendo...");
                 scanner.close();
                 break;
             default:
                 System.out.println("Opción no válida, intenta de nuevo.");
                 menu();
+        }
+    }
+
+    void regresaMenu(){
+        System.out.println("¿Deseas regresar al menú principal? (si/no)");
+        String respuesta = scanner.nextLine();
+        if (respuesta.equalsIgnoreCase("si") || respuesta.equalsIgnoreCase("Si")) {
+            menu();
+        } else if (respuesta.equalsIgnoreCase("no") || respuesta.equalsIgnoreCase("No")) {
+            System.out.println("Saliendo de la aplicación...");
+            scanner.close();
+        } else {
+            System.out.println("Respuesta no válida, intenta de nuevo.");
+            regresaMenu();
         }
     }
 }
