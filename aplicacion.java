@@ -21,7 +21,11 @@ public class aplicacion {
                 tarea.inicio();
                 break;
             case 2:
-                menu();
+                System.out.println("Mostrando tareas...");
+                System.out.println("----------------------------------------------");
+                leerTareas tareas = new leerTareas("tareas.txt");
+                tareas.mostrarContenido();
+                System.out.println("----------------------------------------------");
                 break;
             case 3:
                 menu();
